@@ -1,0 +1,69 @@
+html,
+body {
+    height: 100vh;
+}
+
+.charts-card-template {
+    background-color: #181818;
+    color: #FAF9F9;
+    padding-top: 10px;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    margin: auto;
+}
+
+hr {
+    margin: 0;
+}
+
+#card-info {
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+#no-data {
+    font-size: 20px;
+    text-align: center;
+}
+
+svg {
+    display: block;
+    margin: auto;
+}
+
+.axis text {
+    font: 12px sans-serif;
+    stroke: #A9A9A9;
+    fill: #A9A9A9;
+    shape-rendering: crispEdges;
+    stroke-width: 0;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #A9A9A9;
+    shape-rendering: crispEdges;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+#table-header {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    background-color: #383838;
+}
+
+.table-data-items {
+    padding: 10px 0px 10px;
+}
+
+#table-data div:nth-child(even) {
+    background-color: #1d1d1d;
+}
